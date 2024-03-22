@@ -4,6 +4,10 @@ body {
   margin-top: 40px;
 }
 
+section {
+  text-align: left;
+}
+
 input {
   width: 272px;
   height: 40px;
