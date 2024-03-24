@@ -17,7 +17,8 @@ const options = {
     if (userSelectedDate <= currentTime) {
       iziToast.error({
         title: 'Error',
-        message: 'Please choose a date in the future'
+        message: 'Please choose a date in the future',
+        position: 'topRight',
       });
       button.disabled = true;
     } else {
@@ -80,5 +81,3 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
-
-console.log();
